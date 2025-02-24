@@ -70,3 +70,9 @@ color: #ffffffff;
     font-size: 16px;
 }
 
+.company-text button:hover {
+  background-color: #008e36;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+

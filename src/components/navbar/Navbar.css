@@ -52,6 +52,11 @@
   margin-top: 29px;
 }
 
+
+
+
 .navbar-links li a:hover {
-  cursor: pointer;
+  color: #008e36;
+  transition: color 0.3s ease-in-out;
 }
+
