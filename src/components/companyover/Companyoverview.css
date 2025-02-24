@@ -1,0 +1,83 @@
+.company-container {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+.company-image img {
+ 
+  margin-left: 150px;
+  width: 530px;
+  height: 450px;
+  z-index: 10;
+}
+
+.company-text h4 {
+    height: 140px;
+    width: 530px;
+    font-size: 22px;
+    color: #ffffffff;
+    margin-left: 480px;
+  
+    margin-top: -20px;
+
+}
+.company-text p{
+    font-size: 14px;
+color: #ffffffff;
+     margin-left: 480px;
+    width: 530px;
+    height: 48px;
+}
+.company-text button{
+    height: 50px;
+    width: 113px;
+    background-color: #ffffffff;
+       margin-left: 480px;
+       color: #008E36;
+       font-size: 12px;
+       font-weight: 400;
+       text-align: center;
+}
+.green-corner {
+  position: absolute;
+  
+  width: 150px;
+  height: 150px;
+  background-color: #1c9b47;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  z-index: -1;
+  margin-left: 130px;
+  margin-top:-20px;
+
+}
+
+.company-component {
+  margin-left: 360px;
+  margin-top: -350px;
+  background: linear-gradient(135deg, #71b742, #37a849, #3ea544, #1c9b47);
+  width: 1160px;
+  height: 500px;
+  border: 00.00001px solid #71b742;
+}
+
+.company-text h6 {
+    margin-left: 480px;
+    color: #ffffffff;
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.company-text p {
+}
+
+.company-text strong {
+}
+
+.company-text button {
+}
+
+.company-text button:hover {
+}

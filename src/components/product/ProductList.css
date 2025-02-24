@@ -1,0 +1,140 @@
+.greadinat-bg {
+  width: 100%;
+  height: 1600px;
+  border: 0.0001px solid #3ea544;
+
+  background: linear-gradient(to left, #3ea544, #1c9b47, #37a849, #71b742);
+}
+.map h6 {
+  margin-top: 220px;
+  height: 21px;
+  width: 203px;
+  justify-content: center;
+  margin-left: 685px;
+  color: #ffffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.map h3 {
+  height: 86px;
+  width: 450px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 0 100px;
+  justify-content: center;
+  margin-left: 480px;
+  text-align: center;
+}
+.map-img {
+  width: 1300px;
+  height: 636px;
+  margin-left: 110px;
+  margin-top: 80px;
+}
+.bottom-header-tag {
+  display: flex;
+}
+.bottom-header-tag h3 {
+  color: #ffffffff;
+  font-size: 32px;
+  font-weight: 400;
+  height: 86px;
+  width: 650px;
+  margin-left: 260px;
+  margin-top: 100px;
+}
+.bottom-header-tag button {
+  width: 142px;
+  height: 60px;
+  background: #ffffffff;
+  color: #008e36;
+  font-weight: bold;
+  font-size: 14.4px;
+  margin-top: 113px;
+  margin-left: 216px;
+}
+.map-icon-bar {
+  border: 0.00001px solid white;
+  background: #ffffffff;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 134px;
+}
+.map-icon-bar img {
+  height: 40px;
+
+  margin-left: 120px;
+}
+.product-header-title h6{
+    margin-left: 150px;
+    color: #008E36;
+    font-size: 16px;
+    font-weight: bold;
+    width: 114px;
+    height: 21px;
+    text-align: left;
+}
+.product-header-title h3{
+        margin-left: 150px;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: left;
+    width: 517px;
+    height: 43px;
+    color: #15161A;
+    margin-top: -20px;
+}
+.product-tile-flex{
+    margin-top: -20px;
+    
+}
+.product-tile-flex p{
+         margin-left: 150px;
+         font-size: 14px;
+        text-align: left;
+        color: #3B3E41;
+}
+.product-tile-flex button{
+   background-color: #008E36;
+   color: #ffffffff;
+    margin-left: 711px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 131px;
+    height: 50px;
+    text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: -200px;
+
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.product-image {
+height: 380px;
+width: 380px;
+gap: 20px;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  position: absolute;
+
+  background: rgba(0, 0, 0, 0.5);
+  
+ color:#ffffffff;
+  font-weight: bold;
+}
