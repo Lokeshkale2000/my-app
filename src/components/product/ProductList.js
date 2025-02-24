@@ -16,10 +16,10 @@ import measurment from '../Assets/A805B3F3-B410-4657-8EE7-8FAE2C2EC536.jpg';
 import hatchery from '../Assets/34D25236-841A-4A3B-BAE7-236800C51DC2.jpg';
 import generalindustry from '../Assets/General Industrial.jpg'
 import access from '../Assets/Accessories.jpg';
-import rightarrow from '../Assets/B5EA0010-59C4-4A68-AD4F-FD315DAD9A83 (1).svg'
+import rightarrow from '../Assets/svg/B5EA0010-59C4-4A68-AD4F-FD315DAD9A83 (1).svg'
 
 const products = [
-  { id: 1, title: "Steel Tank", img: steeltank },
+  { id: 1, title: "Steel water Tank", img: steeltank },
   { id: 2, title: "Aqua Tabs", img: aquatabs },
   { id: 3, title: "Incubators & Brooders", img: incub },
   { id: 4, title: "Feeders & Drinkers", img: feederwater },
@@ -56,7 +56,10 @@ const ProductList = () => {
                 alt={product.title}
                 className="product-image"
               />
-              <div className="product-title">{product.title}</div>
+              <div style={{ display: "flex" }}>
+                <h3 className="product-title">{product.title}</h3>
+                <img src={rightarrow} className='grid-arrow'></img>
+              </div>
             </div>
           ))}
         </div>

@@ -1,39 +1,4 @@
-// import React from "react";
-// import "./Companyoverview.css";
-// import company from "../Assets/company-overview.jpg"
 
-// const CompanyOverview = () => {
-//   return (
-//     <div className="company-container">
-    
-//       <div className="company-image">
-        
-//         <img src={company} alt="Chicks drinking water" />
-//       </div>
-
-//       <div className="company-component">
-//         <div className="company-text">
-   
-//           <h2>Company Overview</h2>
-//           <p>
-//             With more than 30 years of experience, we provide a wide variety of
-//             products including: Steel Water Tanks, Aquatabs Inline, Feeders,
-//             Drinkers, Incubators, Brooders, Nests, Transportation Crates, and
-//             many more.
-//           </p>
-//           <p>
-//             We have mainly exported to our key customers in East Africa (Kenya,
-//             Tanzania & Zambia) but have the capacity and logistics expertise to
-//             send orders globally.
-//           </p>
-//           <button>Learn more</button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CompanyOverview;
 import React from "react";
 import "./Companyoverview.css";
 import company from "../Assets/company-overview.jpg";
@@ -61,7 +26,10 @@ const CompanyOverview = () => {
             Tanzania & Zambia) but have the capacity and logistics expertise to
             send orders globally.
           </p>
-          <button>Learn more</button>
+          <div>
+               <button>Learn more</button>
+          </div>
+       
         </div>
       </div>
     </div>
